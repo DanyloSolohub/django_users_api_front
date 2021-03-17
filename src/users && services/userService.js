@@ -10,12 +10,6 @@ export class userService {
 
     }
 
-    choose(id) {
-        return fetch(`${this.url}/${id}`)
-            .then(value => {
-                return value.json()
-            })
 
-    }
 }
 
